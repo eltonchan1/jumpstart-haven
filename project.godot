@@ -11,8 +11,17 @@ config_version=5
 [application]
 
 config/name="jumpstart haven"
+run/main_scene="res://node.tscn"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/godot_super-wakatime/plugin.cfg")
+
+[global_group]
+
+player=""
 
 [physics]
 
